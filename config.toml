@@ -21,7 +21,7 @@ palette = "base16-light"
 
 # Sidebar: about/bio
 [params.about]
-title = "Avery Blanchard"
+title = "Zhengwei Tong"
 description = ""
 picture = "images/me.jpg"
 
