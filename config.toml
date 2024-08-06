@@ -30,10 +30,10 @@ picture = "images/me.jpg"
 # * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
 # * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/timetzw"
+# [[params.socialLinks]]
+# icon = "fa-brands fa-github"
+# title = "GitHub"
+# url = "https://github.com/timetzw"
 
 
 [menu]
