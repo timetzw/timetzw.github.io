@@ -1,34 +1,35 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: # Add your subtitle here (e.g., University Affiliation, Position, etc.)
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: DukePhoto_crop.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: true # set to true to include a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: true # set to true to include news items from _news/ folder
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false # set to true to show blog posts
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student at [Computer Science Department](https://cs.duke.edu/) of [Duke University](https://duke.edu) advised by [Prof. Kartik Nayak](https://users.cs.duke.edu/~kartik/). I am also working closely with [Prof. Saba Eskandarian](https://www.cs.unc.edu/~saba/) at [UNC-Chapel Hill](https://cs.unc.edu/). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I obtained my Master's degree in Mathematics from [UW-Madison](https://math.wisc.edu/) in 2023 and my Bachelor's degree from the Wen-Tsun Wu Honors Class at [Shanghai Jiao Tong University](https://math.sjtu.edu.cn/) in 2022.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interest lies at the intersection of applied cryptography, decentralized systems, and economic security. I aim to build privacy-preserving and economically robust infrastructure for decentralized environments such as blockchains and peer-to-peer networks.
+
+My recent work spans privacy-preserving inclusion lists, reputation-based P2P systems, and AI safety benchmarking. Currently, I am expanding my focus to the economic security of DeFi, exploring how mechanism design influences the stability and efficiency of decentralized financial protocols.
+
+Feel free to reach out via [email](mailto:zhengwei.tong@duke.edu) for collaboration.
