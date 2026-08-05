@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We presented our hackaton project *Persisting Private BitTorrent Trackers with TEEs* at [IC3](https://www.initc3.org/) Blockchain Camp with François-Xavier Wicht, Aviv Yaish, Hang Yin and Andrew Miller.
+We presented our hackathon project *Persisting Private BitTorrent Trackers with TEEs* at the [IC3 Blockchain Summer Camp 2025](https://www.initc3.org/) with François-Xavier Wicht, Aviv Yaish, Hang Yin and Andrew Miller.
