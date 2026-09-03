@@ -24,12 +24,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at [Computer Science Department](https://cs.duke.edu/) of [Duke University](https://duke.edu) advised by [Prof. Kartik Nayak](https://users.cs.duke.edu/~kartik/). I am also working closely with [Prof. Saba Eskandarian](https://www.cs.unc.edu/~saba/) at [UNC-Chapel Hill](https://cs.unc.edu/). 
+I am a PhD student in the [Computer Science Department](https://cs.duke.edu/) at [Duke University](https://duke.edu/), advised by [Prof. Kartik Nayak](https://users.cs.duke.edu/~kartik/) and [Prof. Saba Eskandarian](https://www.cs.unc.edu/~saba/) at [UNC-Chapel Hill](https://cs.unc.edu/).
 
-Previously, I obtained my Master's degree in Mathematics from [UW-Madison](https://math.wisc.edu/) in 2023 and my Bachelor's degree from the Wen-Tsun Wu Honors Class at [Shanghai Jiao Tong University](https://math.sjtu.edu.cn/) in 2022.
+Previously, I obtained my Master's degree in Mathematics from [UW-Madison](https://math.wisc.edu/) in 2023 and my Bachelor's degree in Mathematics, with a minor in French, from the Wen-Tsun Wu Honors Class at [Shanghai Jiao Tong University](https://math.sjtu.edu.cn/) in 2022.
 
 My research interest lies at the intersection of applied cryptography, decentralized systems, and economic security. I aim to build privacy-preserving and economically robust infrastructure for decentralized environments such as blockchains and peer-to-peer networks.
 
 My recent work spans privacy-preserving inclusion lists, reputation-based P2P systems, and AI safety benchmarking. Currently, I am expanding my focus to the economic security of DeFi, exploring how mechanism design influences the stability and efficiency of decentralized financial protocols.
 
 Feel free to reach out via [email](mailto:zhengwei.tong@duke.edu) for collaboration.
+
+## Teaching
+
+- [CS354/584 for Fall 2026](https://sites.duke.edu/compsci_584_01_f26/)
