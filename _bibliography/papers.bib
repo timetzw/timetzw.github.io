@@ -2,11 +2,12 @@
 ---
 
 # ---------------- Papers in Submission / Preprints ----------------
-@misc{wicht2025persistent,
+@inproceedings{wicht2025persistent,
   title        = {Persistent BitTorrent Trackers},
   author       = {Wicht, François-Xavier and Tong, Zhengwei and Zhou, Shunfan and Yin, Hang and Yaish, Aviv},
+  booktitle    = {2026 IEEE 11th European Symposium on Security and Privacy (EuroS\&P)},
   year         = {2026},
-  note         = {Accepted to IEEE Euro S\&P 2026},
+  note         = {Also presented at the Science of Blockchain Conference (SBC'26)},
   abstract     = {Private BitTorrent trackers enforce upload-to-download ratios to prevent free-riding, but suffer from three critical weaknesses: reputation cannot move between trackers, centralized servers create single points of failure, and upload statistics are self-reported and unverifiable. When a tracker shuts down (whether by operator choice, technical failure, or legal action) users lose their contribution history and cannot prove their standing to new communities. We address these problems by storing reputation in smart contracts and replacing self-reports with cryptographic attestations. Receiving peers sign receipts for transferred pieces, which the tracker aggregates and verifies before updating on-chain reputation. Trackers run in Trusted Execution Environments (TEEs) to guarantee correct aggregation and prevent manipulation of state. If a tracker is unavailable, peers use an authenticated Distributed Hash Table (DHT) for discovery: the on-chain reputation acts as a Public Key Infrastructure (PKI), so peers can verify each other and maintain access control without the tracker. This design persists reputation across tracker failures and makes it portable to new instances through single-hop migration in factory-deployed contracts. We formalize the security requirements, prove correctness under standard cryptographic assumptions, and evaluate a prototype on Intel TDX. Measurements show that transfer receipts add less than 6\% overhead and signature aggregation speeds up verification by 2.5×.},
   arxiv        = {2511.17260},
   doi          = {10.48550/arXiv.2511.17260},
@@ -15,15 +16,25 @@
   selected     = {true}
 }
 
-@misc{tong2025privacypreserving,
+@inproceedings{tong2025privacypreserving,
   title={Privacy-Preserving Inclusion Lists},
   author={Tong, Zhengwei and Eskandarian, Saba and Nayak, Kartik},
+  booktitle={Proc. 8th Conference on Advances in Financial Technologies (AFT 2026)},
   year={2026},
-  note={Accepted to AFT 2026},
   pdf={https://eprint.iacr.org/2026/1582.pdf},
   selected={true},
   abstract={Blockchains aim to provide open access and censorship resistance, but centralization of block production in blockchains like Ethereum undermines these goals. Inclusion list protocols have been proposed to mitigate censorship by requiring block proposers to include transactions proposed by a committee of inclusion list (IL) proposers. However, protecting the privacy of these proposers is essential to prevent retaliation and to ensure robust censorship resistance. We propose a lightweight, privacy-preserving inclusion list protocol that allows committees to collectively construct transaction lists while hiding individual contributions and ensuring plausible deniability. Our approach builds on multiparty computation (MPC) techniques to achieve strong privacy without relying on heavyweight cryptography or anonymous channels. We implement two variants of these protocols that support a third of the parties behaving adversarially: an optimistic version that supports malicious security with abort, and a robust MPC that tolerates arbitrary faults. Under a default parameterization for inclusion lists being considered today, we observe a latency of $\sim 5.1$s and $\sim 432.7$s in the two variants.},
   preview={ppil.png}
+}
+
+@misc{liao2026diffusion,
+  title={Diffusion-Based Data-Driven Assortment Optimization},
+  author={Liao, Junyi and Jiang, Xiaohui and Tong, Zhengwei and Fang, Ethan X. and Tarokh, Vahid},
+  year={2026},
+  additional_info={*Under submission*},
+  arxiv={2608.11419},
+  doi={10.48550/arXiv.2608.11419},
+  pdf={https://arxiv.org/pdf/2608.11419}
 }
 
 # ---------------- Published Papers ----------------

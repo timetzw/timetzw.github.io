@@ -32,3 +32,39 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"wicht":
+  - firstname: ["François-Xavier"]
+    url: https://wichtfx.github.io/
+
+"yaish":
+  - firstname: ["Aviv"]
+    url: https://aviv.yai.sh/
+
+"nayak":
+  - firstname: ["Kartik"]
+    url: https://users.cs.duke.edu/~kartik/
+
+"eskandarian":
+  - firstname: ["Saba"]
+    url: https://www.cs.unc.edu/~saba/
+
+"liao":
+  - firstname: ["Junyi"]
+    url: https://jurrivhleon.github.io/
+
+"jiang":
+  - firstname: ["Xiaohui"]
+    url: https://scholar.google.com/citations?user=dtPWuE8AAAAJ&hl=en
+
+"tarokh":
+  - firstname: ["Vahid"]
+    url: https://people.duke.edu/~vt45/
+
+"fang":
+  - firstname: ["Ethan X.", "Ethan"]
+    url: https://ethanfangduke.github.io/homepage/
+
+"chen":
+  - firstname: ["Zhaorun"]
+    url: https://billchan226.github.io/
