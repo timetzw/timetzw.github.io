@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [_Privacy-Preserving Inclusion Lists_](https://eprint.iacr.org/2026/1582.pdf) has been accepted at [AFT 2026](https://aft.ifca.ai/aft26/index.html)!
+Our paper [*Privacy-Preserving Inclusion Lists*](https://eprint.iacr.org/2026/1582.pdf) has been accepted at [AFT 2026](https://aft.ifca.ai/aft26/index.html)!

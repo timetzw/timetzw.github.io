@@ -1,11 +1,9 @@
 $(document).ready(function () {
   // add toggle functionality to abstract, award and bibtex buttons
-  $("button.abstract").click(function () {
-    const panel = document.getElementById(this.getAttribute("aria-controls"));
-    const expanded = this.getAttribute("aria-expanded") === "true";
-    this.setAttribute("aria-expanded", String(!expanded));
-    panel.hidden = expanded;
-    panel.classList.toggle("open", !expanded);
+  $("a.abstract").click(function () {
+    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
   $("a.award").click(function () {
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");

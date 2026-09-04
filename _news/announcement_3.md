@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I presented Privacy-Preserving Inclusion Lists
-at [TAPS](https://sites.google.com/ncsu.edu/taps2025/home) at _NCSU_.
+I will be presenting Privacy-Preserving Inclusion Lists
+ at [TAPS](https://sites.google.com/ncsu.edu/taps2025/home) at *NCSU*. 

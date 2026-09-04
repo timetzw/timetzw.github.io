@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [_Persistent BitTorrent Trackers_](https://eprint.iacr.org/2025/2131) has been accepted at [IEEE Euro S&P 2026](https://eurosp2026.ieee-security.org/).
+Our paper [*Persistent BitTorrent Trackers*](https://eprint.iacr.org/2025/2131) has been accepted at [IEEE Euro S&P 2026](https://eurosp2026.ieee-security.org/).

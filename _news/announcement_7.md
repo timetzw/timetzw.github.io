@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented our work [_Persistent BitTorrent Trackers_](https://arxiv.org/abs/2511.17260) at the [IC3 Blockchain Summer Camp 2026](https://ic3research.org/ic3-blockchain-camp-2026/).
+I presented our work [*Persistent BitTorrent Trackers*](https://arxiv.org/abs/2511.17260) at the [IC3 Blockchain Summer Camp 2026](https://ic3research.org/ic3-blockchain-camp-2026/).
