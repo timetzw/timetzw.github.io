@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [*Persistent BitTorrent Trackers*](https://arxiv.org/abs/2511.17260) has also been accepted at [SBC 2026](https://www.sbc-conference.com/)!
+Our paper [_Persistent BitTorrent Trackers_](https://arxiv.org/abs/2511.17260) has also been accepted at [SBC 2026](https://www.sbc-conference.com/)!
