@@ -88,14 +88,12 @@ ninja.data = [
             {%- assign title = item.title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
           {%- endif -%}
           id: "{{ collection.label }}-{{ title | slugify }}",
-          title: '{{ title | escape | emojify | truncatewords: 13 }}',
+          title: {{ title | replace: "&amp;amp;", "&" | replace: "&amp;", "&" | replace: "&#39;", "'" | truncatewords: 20 | jsonify }},
           description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
           section: "{{ collection.label | capitalize }}",
-          {%- unless item.inline -%}
             handler: () => {
-              window.location.href = "{{ item.url | relative_url }}";
+              window.location.href = "{% if item.inline %}{{ "/news/" | relative_url }}{% else %}{{ item.url | relative_url }}{% endif %}";
             },
-          {%- endunless -%}
         },
       {%- endfor -%}
     {%- endif -%}

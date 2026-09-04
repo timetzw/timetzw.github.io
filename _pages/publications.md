@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: My research sorted by year.
+description: Publications by Zhengwei Tong in cryptography, decentralized systems, AI evaluation, and optimization.
 nav: true
 nav_order: 1
 ---
