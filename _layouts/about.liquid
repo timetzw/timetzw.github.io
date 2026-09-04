@@ -40,6 +40,16 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Current teaching -->
+    {% if page.current_teaching %}
+      <h2>Current Teaching</h2>
+      <ul>
+        {% for course in page.current_teaching %}
+          <li>{{ course | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -62,6 +72,16 @@ layout: default
         <a href="{{ '/research/' | relative_url }}" style="color: inherit">Research</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Teaching experience -->
+    {% if page.teaching_experience %}
+      <h2>Teaching Experience</h2>
+      <ul>
+        {% for course in page.teaching_experience %}
+          <li>{{ course | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
     {% endif %}
 
     <!-- Social -->
