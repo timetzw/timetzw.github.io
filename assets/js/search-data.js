@@ -68,6 +68,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ve-started-my-internship-at-nethermind",
           title: 'I’ve started my internship at Nethermind.',
           description: "",
+          section: "News",},{id: "news-our-paper-spruce-scalable-multiparty-private-set-union-in-constant-rounds-is-available-on-eprint",
+          title: 'Our paper SPRUCE: Scalable Multiparty Private Set Union in Constant Rounds is available...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
