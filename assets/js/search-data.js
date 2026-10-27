@@ -71,6 +71,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-spruce-scalable-multiparty-private-set-union-in-constant-rounds-is-available-on-eprint",
           title: 'Our paper SPRUCE: Scalable Multiparty Private Set Union in Constant Rounds is available...',
           description: "",
+          section: "News",},{id: "news-i-gave-a-talk-an-overview-of-privacy-in-blockchain-systems-at-snz-holding",
+          title: 'I gave a talk, An Overview of Privacy in Blockchain Systems, at SNZ...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
